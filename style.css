@@ -108,4 +108,39 @@ body{
     padding: 10px;
     border-radius: 10px;
   }
- 
+ .hr{
+  width: 15%;
+margin-left: 560px;
+color: rgb(225, 255, 0);
+background-color: yellow;
+ }
+ .back23{
+  background: linear-gradient(to top, rgb(32, 21, 113), rgb(38, 38, 242));
+ }
+ .grind3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 40px;
+ }
+ .colir{
+  color: yellow;
+ }
+ .colir2{
+  color: white;
+ }
+ .flex{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ .pd{
+  padding-top: 70px;
+  padding-left: 10px;
+ }
+ .back22{
+  background-color: black;
+  color: wheat;
+  height: 293px;
+ }
+.idf{
+  margin-top: -60px;
+}
