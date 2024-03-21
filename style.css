@@ -134,7 +134,7 @@ background-color: yellow;
   grid-template-columns: 1fr 1fr;
  }
  .pd{
-  padding-top: 70px;
+  padding-top: 50px;
   padding-left: 10px;
  }
  .back22{
@@ -144,4 +144,61 @@ background-color: yellow;
  }
 .idf{
   margin-top: -60px;
+}
+.comentarios{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 20px;
+  
+}
+.card{
+  background-color: blue;
+  width: 70%;
+  padding: 10px;
+  color: white;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.grid22{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.text{
+  padding-left: 260px;
+}
+.grid4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card2{
+  background-color: rgba(158, 158, 158, 0.322);
+  width: 60%;
+  margin-left: 30px;
+  padding: 40px;
+  border-color: black;
+  border: 1px solid;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 90px;
+}
+.conheca{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: white;
+  margin-left: -8px;
+  padding-left: 20px;
+gap: 30px;
 }
