@@ -202,3 +202,13 @@ background-color: yellow;
   padding-left: 20px;
 gap: 30px;
 }
+.video{
+  width: 70%;
+  border-radius:20px;
+  padding-left: 50px;
+}
+@media (min-width:1300px){
+.mt{
+  margin-top: 500px;
+}
+}
