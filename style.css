@@ -206,3 +206,9 @@ gap: 30px;
   width: 91%;
   border-radius: 20px;
 }
+
+@media (min-width:1300px){
+.mt{
+  margin-top: 500px;
+}
+}
