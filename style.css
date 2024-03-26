@@ -207,8 +207,8 @@ gap: 30px;
   border-radius: 20px;
 }
 
-@media (min-width:1500px){
+@media (min-width:1390px){
 .mt{
-  margin-top: 300px;
+  margin-top: 500px;
 }
 }
