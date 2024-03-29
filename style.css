@@ -206,7 +206,13 @@ gap: 30px;
   width: 90%;
   border-radius: 20px;
 }
-
+.ifg{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.logo{
+  width: 80%;
+}
 @media (min-width:1390px){
 .mt{
   margin-top: 500px;
