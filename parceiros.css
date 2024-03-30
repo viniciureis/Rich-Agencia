@@ -51,4 +51,12 @@
   a{
     text-decoration: none;
   }
-  
+  .gray{
+    background-color: rgb(246, 255, 0);
+    color: rgb(0, 0, 0);
+    height: 300px;
+  }
+  .flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
