@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  .cabecalho{
+    display: flex;
+   justify-content: space-between;
+   padding: 30px;
+  
+   margin: 0 auto;
+  
+  }
+  .cabecalho .logo{
+    width: 55px;
+    margin-top: -20px;
+  }
+  .cabecalho .menu{
+  
+    display: flex;
+    
+    align-items: center;
+    height: 100%;
+  }
+
+  .cabecalho nav li a{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+    
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+  }
+
+  .cabecalho nav li a:hover{
+    background-color: rgb(255, 238, 0);
+    list-style: none;
+    text-decoration: none;
+  
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .gray{
+    background-color: rgb(246, 255, 0);
+    color: rgb(0, 0, 0);
+    height: 300px;
+    background: url(imgs/6f7c90fd-7376-4642-bfe6-97930ddbbecf.jpg);
+    background-position: right bottom;
+  }
+  .flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .img{
+    width: 63%;
+    margin-top: -53px;
+  }
+  .text{
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  .buttom{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .buttom:hover{
+    background-color: red;
+    border-color: red;
+    transition-delay: 1ms;
+    transition-duration: 2ms;
+  }

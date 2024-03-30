@@ -213,6 +213,18 @@ gap: 30px;
 .logo{
   width: 80%;
 }
+.buttom{
+  background-color: yellow;
+  border-color: yellow;
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.buttom:hover{
+  background-color: rgb(255, 0, 0);
+  border-color: rgb(255, 0, 0);
+  color: white;
+}
 @media (min-width:1390px){
 .mt{
   margin-top: 500px;
