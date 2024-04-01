@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .cabecalho{
+    display: flex;
+   justify-content: space-between;
+   padding: 30px;
+  
+   margin: 0 auto;
+  
+  }
+  body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .cabecalho .logo{
+    width: 55px;
+    margin-top: -20px;
+  }
+  .cabecalho .menu{
+  
+    display: flex;
+    
+    align-items: center;
+    height: 100%;
+  }
+
+  .cabecalho nav li a{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+    
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  header{
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+  }
+
+  .cabecalho nav li a:hover{
+    background-color: rgb(255, 238, 0);
+    list-style: none;
+    text-decoration: none;
+  
+  }
+  a{
+    text-decoration: none;
+  }
+  span{
+  
+    color: yellow;
+    padding: 1px;
+  
+    margin-bottom: 10px;
+  }
+  .back{
+    background-color: rgb(149, 0, 255);
+  }
+  .flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .img{
+margin-bottom: -7px;
+  }
+  .text{
+    font-size: 40px;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+  }
+  .grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .img2{
+    width: 100%;
+  }
+  .grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    margin-left: -8px;
+    padding-left: 20px;
+  }
