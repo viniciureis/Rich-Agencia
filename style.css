@@ -261,7 +261,7 @@ gap: 30px;
 }
 .idf{
   width: 50%;
-  margin-left: -50px;
+
 }
 .text{
   padding-left: 0px;
@@ -276,5 +276,17 @@ gap: 30px;
 .cabecalho menu{
   padding-left: 0px;
   font-size: 5px;
+}
+.cabecalho nav li a{
+  font-size: 9px;
+  padding: 10px;
+  display: flex;
+
+
+
+}
+.cabecalho{
+  margin-left: -100px;
+  padding: 0px;
 }
 }
