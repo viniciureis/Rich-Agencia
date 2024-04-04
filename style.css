@@ -296,4 +296,8 @@ gap: 30px;
 .mgd{
   width: 60%;
 }
+.comentarios{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 }
