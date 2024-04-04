@@ -243,4 +243,11 @@ gap: 30px;
 .menu{
   font-size: 10px;
 }
+.vd{
+  width: 30%;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 }
