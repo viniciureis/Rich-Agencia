@@ -273,4 +273,8 @@ gap: 30px;
 .card{
   margin-left: 0px;
 }
+.cabecalho menu{
+  padding-left: 0px;
+  font-size: 5px;
+}
 }
