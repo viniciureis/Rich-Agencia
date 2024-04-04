@@ -233,6 +233,12 @@ gap: 30px;
 
 
 @media (min-width:300px) and (max-width:500px){
+  *{
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
 .mt{
   margin-top: 300px;
 }
@@ -262,6 +268,9 @@ gap: 30px;
 }
 .grid4{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr ;
+}
+.card{
+  margin-left: 0px;
 }
 }
