@@ -227,6 +227,20 @@ gap: 30px;
 }
 @media (min-width:1390px){
 .mt{
-  margin-top: 500px;
+  margin-top: 300px;
+}
+}
+
+
+@media (min-width:300px) and (max-width:500px){
+.mt{
+  margin-top: 300px;
+}
+.grid{
+  display:  grid;
+  grid-template-columns: 1fr;
+}
+.menu{
+  font-size: 10px;
 }
 }
