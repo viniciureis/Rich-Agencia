@@ -137,5 +137,7 @@
         padding-left: 5px;
       }
 
-      
+      .absolute{
+        margin-left: 10px;
+      }
     }
