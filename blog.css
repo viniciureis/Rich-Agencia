@@ -142,4 +142,7 @@ width: 90%;
         display: grid;
         grid-template-columns: 1fr ;
       }
+      .lis{
+        padding-left: 0px;
+      }
     }
