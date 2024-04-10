@@ -121,7 +121,7 @@ body{
     .flex{
       display: grid;
       grid-template-columns: 1fr;
-     grid-dir
+    
     }
     
   }
