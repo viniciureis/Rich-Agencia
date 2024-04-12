@@ -146,3 +146,9 @@ width: 90%;
         padding-left: 10px;
       }
     }
+
+    @media (min-width:1390px){
+      .img{
+       width: 100%;
+      }
+   }
