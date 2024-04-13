@@ -25,8 +25,9 @@
      text-decoration: none;
   }
   .img1{
-    width: 98.87vw;
+    width: 98.75vw;
     height: 350px;
+    margin-left: -50px;
   }
   #p{
     padding-left: 50px;
