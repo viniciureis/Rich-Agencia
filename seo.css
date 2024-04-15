@@ -133,3 +133,13 @@ body{
     gap: 30px;
 
     }
+    .pf{
+      color: white;
+    }
+
+    @media (min-width:1390px){
+      .img{
+       width: 52%;
+      }
+   }
+   

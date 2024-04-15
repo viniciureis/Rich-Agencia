@@ -137,7 +137,18 @@ width: 90%;
         padding: 10px;
         display: flex;
       
-      
-      
+      }
+      .div{
+        display: grid;
+        grid-template-columns: 1fr ;
+      }
+      .lis{
+        padding-left: 10px;
       }
     }
+
+    @media (min-width:1390px){
+      .img{
+       width: 100%;
+      }
+   }
