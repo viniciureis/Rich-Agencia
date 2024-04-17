@@ -61,11 +61,37 @@
     grid-template-columns: 1fr 1fr;
   }
   .img{
-    width: 73%;
+    width: 52%;
   
    
   }
   .text{
     font-size: 30px;padding-left: 20px;
     padding-top: 20px;
+  }
+
+  @media(min-width:300px) and (max-width:460px){
+    *{
+      margin: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      padding: 0px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .cabecalho menu{
+      padding-left: 0px;
+      font-size: 5px;
+    }
+    .cabecalho nav li a{
+      font-size: 9px;
+      padding: 10px;
+      display: flex;
+    
+    }
+    .flex{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
   }
