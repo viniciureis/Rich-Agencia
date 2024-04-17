@@ -136,7 +136,38 @@ body{
     .pf{
       color: white;
     }
-    
+    @media(min-width:300px) and (max-width:460px){
+      *{
+        margin: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+  
+      .cabecalho menu{
+        padding-left: 0px;
+        font-size: 5px;
+      }
+      .cabecalho nav li a{
+        font-size: 9px;
+        padding: 10px;
+        display: flex;
+      
+      }
+      .mt{
+        margin-top: 500px;
+      }
+      .div4{
+        display:  grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .grid3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
 
     @media (min-width:1390px){
       .img{
