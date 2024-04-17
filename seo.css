@@ -157,7 +157,7 @@ body{
       
       }
       .mt{
-        margin-top: 500px;
+        margin-top: 10px;
       }
       .div4{
         display:  grid;
@@ -167,7 +167,12 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr;
       }
+      .grid4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
     }
+
 
     @media (min-width:1390px){
       .img{
