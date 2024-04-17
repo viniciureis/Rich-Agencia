@@ -91,4 +91,8 @@
     .img1{
      width: 100%;
     }
+    .grid4{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
  }
