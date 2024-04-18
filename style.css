@@ -310,4 +310,10 @@ gap: 30px;
 .conteudo{
   padding-left: 13px;
 }
+.pd{
+  padding-top: 0px;
+}
+.buttom{
+  font-size: 10px;
+}
 }
