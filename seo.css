@@ -53,6 +53,9 @@ body{
   a{
     text-decoration: none;
   }
+  a{
+    color: white;
+  }
 
   .gray{
     background-color: rgb(246, 255, 0);
@@ -176,7 +179,7 @@ body{
 
     @media (min-width:1390px){
       .img{
-       width: 52%;
+       width: 44%;
       }
    }
    
