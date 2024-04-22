@@ -98,7 +98,7 @@
   }
   @media (min-width:1390px){
     .img1{
-     width: 100vw;
+     width: 99vw;
     }
     .grid4{
       display: grid;
