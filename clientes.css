@@ -102,4 +102,7 @@ margin-bottom: -7px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .menu{
+    font-size: 15px;
+  }
   }
