@@ -53,9 +53,13 @@
     display: grid;
    
   }
+  ul{
+    list-style: none;
+  }
   footer{
     background-color: black;
     color: white;
+    padding-left: 10px;
   }
   .video{
     width: 100%;
