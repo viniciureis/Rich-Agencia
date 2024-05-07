@@ -69,6 +69,18 @@
     font-size: 30px;padding-left: 20px;
     padding-top: 20px;
   }
+  .flex22{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .width{
+    width: 99%;
+  
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px black;
+  }
 
   @media(min-width:300px) and (max-width:460px){
     *{
@@ -96,6 +108,10 @@
     }
     .text{
       font-size: 1px
+    }
+    .flex22{
+      display: grid;
+      grid-template-columns:  1fr 1fr ;
     }
    
   }
