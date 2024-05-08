@@ -107,11 +107,12 @@
       grid-template-columns: 1fr;
     }
     .text{
-      font-size: 18px
+     
     }
     .flex22{
       display: grid;
       grid-template-columns:  1fr 1fr ;
+      padding: 10p;
     }
    
   }
